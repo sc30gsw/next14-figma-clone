@@ -1,5 +1,12 @@
+import { CollaborativeApp } from './CollaborativeApp'
+import { Room } from './Room'
+
 const Home = () => {
-  return <main>Hello Next.js</main>
+  return (
+    <Room>
+      <CollaborativeApp />
+    </Room>
+  )
 }
 
 export default Home
